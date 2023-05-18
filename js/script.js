@@ -1,4 +1,7 @@
 
+// TODO ----- VERY EASY -----
+
+
 // TODO ----- EASY -----
 
 // ? Task #1
@@ -119,8 +122,107 @@
 //     myResult.innerHTML = sliceSum(firstArr, secondInp.value);
 // }
 
+// ? Task #6
+// ? Index Shuffle
+
+// function indexShuffle(str) {
+//     let even = str.split('').filter((elem, index) => index % 2 === 0);
+//     let odd = str.split('').filter((elem, index) => index % 2 === 1);
+
+//     return `${even.join('')}${odd.join('')}`;
+// }
+
+// let myBtn = document.querySelector('.btn');
+
+// myBtn.onclick = () => {
+//     let myInp = document.querySelector('.inp');
+//     let myRes = document.querySelector('.result');
+
+//     myRes.innerHTML = indexShuffle(myInp.value);
+// }
+
+// ? Tasks #7
+// ? Prefixes vs. Suffixes
+
+// function isPrefix(word, prefix) {
+//     return word.includes(prefix.substring(0, prefix.length - 1)) ? true : false;
+// }
+
+// let myBtn = document.querySelector('.btn');
+
+// myBtn.onclick = () => {
+//     let firstInp = document.querySelector('.inp1');
+//     let secondInp = document.querySelector('.inp2');
+//     let myRes = document.querySelector('.result');
+
+//     myRes.innerHTML = isPrefix(firstInp.value, secondInp.value);
+// }
 
 
+// function isSuffix(word, suffix) {
+//     return word.includes(suffix.substring(1, suffix.length)) ? true : false;
+// }
+
+// let myButton = document.querySelector('.butt');
+
+// myButton.onclick = () => {
+//     let thirdInp = document.querySelector('.inp3');
+//     let fourthInp = document.querySelector('.inp4');
+//     let myRes = document.querySelector('.result');
+
+//     myRes.innerHTML = isSuffix(thirdInp.value, fourthInp.value);
+// }
+
+// ? Task #8
+// ? Add up the Numbers from a Single Number
+
+// function addUp(num) {
+//     if (num === 1)
+//         return 1;
+//     return +num + +addUp(num - 1);
+// }
+
+// let myBtn = document.querySelector(".btn");
+
+// myBtn.onclick = () => {
+//     let firstInp = document.querySelector(".inp");
+//     let myResult = document.querySelector(".result");
+
+//     myResult.innerHTML = addUp(firstInp.value);
+// }
+
+// ? Task #9
+// ? Left Shift by Powers of Two
+
+// function shiftToLeft(x, y) {
+//     return x * Math.pow(2, y);
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let inp1 = document.querySelector('.inp1');
+//     let inp2 = document.querySelector('.inp2');
+//     let res = document.querySelector('.result');
+
+//     res.innerHTML = shiftToLeft(inp1.value, inp2.value);
+// }
+
+// ? Task #10
+// ? Find the Smallest and Biggest Numbers
+
+// function minMax(arr) {
+//     return [Math.min(...arr), Math.max(...arr)];
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let inp1 = document.querySelector('.inp1');
+//     let res = document.querySelector('.result');
+
+//     res.innerHTML = minMax(inp1.value.trim().split(' '));
+// }
 
 
 // TODO ----- MEDIUM -----
